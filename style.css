@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+.OnCenter {
+    position: sticky;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+}
+
+.OnCenter h1 {
+    font-family: 'Helvetica';
+    font-size: 38px;
+    padding: 10px;
+}
+
+.OnCenter button {
+    width: 50%;
+    outline: 0;
+    font-family: 'Helvetica';
+    color: white;
+    font-size: 30px;
+    padding: 8px;
+    border: 0;
+    border-radius: 19px;
+    margin: 10px 0 10px 0;
+    background-color: #7800bd;
+}
+
+.OnCenter button:hover {
+    background-color: #a200ff;
+}
