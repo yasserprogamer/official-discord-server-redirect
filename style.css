@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap');
+
 * {
     margin: 0;
     padding: 0;
@@ -22,9 +24,15 @@ body {
 }
 
 .OnCenter h1 {
-    font-family: 'Helvetica';
-    font-size: 38px;
+    font-family: 'Fredoka One', cursive;
+    font-size: 48px;
     padding: 10px;
+}
+
+.OnCenter p {
+    font-family: 'Titan One', cursive;
+    font-size: 18px;
+    padding: 8px;
 }
 
 .OnCenter button {
@@ -33,11 +41,12 @@ body {
     font-family: 'Helvetica';
     color: white;
     font-size: 30px;
-    padding: 8px;
+    padding: 14px;
     border: 0;
     border-radius: 19px;
     margin: 10px 0 10px 0;
-    background-color: #7800bd;
+    background-color: #600098;
+    cursor: pointer;
 }
 
 .OnCenter button:hover {
